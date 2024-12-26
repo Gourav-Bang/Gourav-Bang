@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <title>Resume - Gourav Bang</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Resume | Gourav Bang" />
+    <meta name="keywords" content="Gourav Bang, Software Engineer, Backend, Java, Python, Golang, Spring Boot, Kafka, Resume" />
+
+    <meta name="author" content="Gourav Bang">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 month">
+
+    <meta property="og:title" content="Resume | Gourav Bang">
+    <meta property="og:site_name" content="Resume|Gourav Bang">
+    <meta property="og:url" content="https://gourav-bang710.github.io">
+    <meta property="og:description" content="Resume | Gourav Bang">
+    <meta property="og:type" content="website">
+
+    <meta name="theme-color" content="black">
+    <meta name="msapplication-navbutton-color" content="black">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/resume.css" media="screen" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            background-color: #131417;
+            margin: 0;
+            font-family: "JetBrains Mono", Monaco, monospace;
+            color: #3E7EFF;
+            padding: 0 0 0 12px;
+        }
+
+        #command {
+            background-color: #131417;
+            color: #ff4500; /* Bright Orange for Commands */
+            text-shadow: 0 0 5px #ff4500, 0 0 10px #ff6347, 0 0 20px #ff4500;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="terminal-window">
+        <div class="terminal-header">
+            <div class="window-controls">
+                <div class="control-btn close"></div>
+                <div class="control-btn minimize"></div>
+                <div class="control-btn maximize"></div>
+            </div>
+            <span>resume.exe</span>
+        </div>
+        <div class="terminal-content">
+            <div class=console>
+                <div>
+                    <pre class="ascii">
+   _____             _____                                           ___
+  / ____|           / ____|                                         |  _ \                      
+ | |   __   __     | |  __   ___   _   _  _ __  __ _ __   __ ______ | |_) |  __ _  _ __    __ _ 
+ | |   \ \ / /     | | |_ | / _ \ | | | || '__|/ _` |\ \ / /|______||  _ <  / _` || '_ \  / _` |
+ | |____\ V /   _  | |__| || (_) || |_| || |  | (_| | \ V /         | |_) || (_| || | | || (_| |
+  \_____|\_/   (_)  \_____| \___/  \__,_||_|   \__,_|  \_/          |____/  \__,_||_| |_| \__, |
+                                                                                           __/ |
+                                                                                          |___/       
+Fork/Star on <a target = "_blank" 
+href = "https://github.com/Gourav-Bang/gourav-bang710.github.io">Github</a> </pre>
+                    <div id="head">
+                        <span id="MyClockDisplay" class="clock" onload="showTime()"></span>
+                        <p class="welcome">Welcome to Gourav's web resume
+                            (start with "<strong class="bold" style="color:blue">help</strong>" if you are lost).
+                            <a href="resources/resume.pdf" target=_blank><u><strong>Download</strong></u></a> the resume.
+                        </p>
+                        Counting his breath since <span id="count-up">
+                        </span>
+                        <hr class="divider">
+                    </div>
+
+
+                    <div id="resume-container">
+                        <div id="executed_commands">
+                            <div class="typewriter"></div>
+                        </div>
+                        <div id="command-line">
+                            <span style="color:red">❯</span> <span style="color:cyan">[Gourav@root]</span>
+                            <div class="command-wrapper">
+                                <input type="text" autofocus="autofocus" id="command" placeholder="Type a command..."  />
+                                <ul id="suggestions-list"></ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Resume Sections -->
+            <!-- 1. About -->
+            <div id="about" class="topic">
+                <div><strong>About</strong></div>
+                <div>
+                    <p>
+                        His full name is Gourav Bang. He has completed his Master's degree in Computer Science and Engineering from IIIT Bangalore, and a Bachelor's degree in Computer Science and Engineering from RGPV Bhopal. He is a software developer with a strong grasp of data structures, algorithms, and scalable system designs.
+                    </p>
+                    <p>
+                        Gourav is known for his collaborative and helpful nature, always ready to assist teammates or peers in tackling their technical challenges. He embraces learning as a continuous process, readily adapting to new technologies and improving his skillset to meet evolving industry demands.
+                    </p>
+                    <p>
+                        Over time, Gourav has honed his expertise in languages like C, C++ and Python. He has worked extensively with modern frameworks and distributed systems, consistently delivering efficient, reliable, and high-performing solutions.
+                    </p>
+                </div>
+                <div>
+                    Some activities and achievements he has been involved with:
+                    <ul>
+                        <li><strong>GATE 2020:</strong> Secured AIR 616 with 99.36 percentile.</li>
+                        <li><strong>MP Tech Innovation Challenge</strong> Achieved Runner-Up position in state-level competition for the Smart Pi Camera project</li>
+                        <li><strong>CCNA Certified in Computer Networks</strong> Demonstrated comprehensive expertise in computer network fundamentals through CCNA certification.</li>
+                        <li><strong>Core Member, Sports Commitee, IIIT-B:</strong> Contributed to initiatives fostering the sports culture by organzing inter/intra college sports events</li>
+                        <li><strong>Event Manager, Infinite Cultural Fest, IIIT-B:</strong> Organized and managed large-scale cultural events, enhancing campus life.</li>
+                        <li><strong>Microsoft Technology Associate </strong> Database Administration Fundamentals</li>
+                        <li><strong>Microsoft Technology Associate </strong> Introduction to Programming using Python</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- 2. Education  -->
+<!--            <div id="education" class="topic">-->
+<!--                <div><strong>Education</strong></div>-->
+<!--                <div>-->
+<!--                    <ul>-->
+<!--                        <li><strong>IIIT Bangalore (2020 - 2022)</strong></li>-->
+<!--                        <p style="margin:0;">M.Tech in Computer Science and Engineering (AI/ML) (CGPA: 3.22/4.0)</p>-->
+<!--                        <li><strong>SKIT Jaipur (2015 - 2019)</strong></li>-->
+<!--                        <p style="margin:0;">B.Tech in Computer Science and Engineering (CGPA: 7.43/10.0)</p>-->
+<!--                        <li><strong>Maheshwari Senior Secondary School Jaipur</strong></li>-->
+<!--                        <p style="margin: 0">Class 12th(2015) - 78.80%</p>-->
+<!--                        <p style="margin: 0">Class 10th(2013) - 72.66%</p>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <div id="education" class="topic">
+                <div>
+                    <h2>Education</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <h3>IIIT Bangalore</h3>
+                            <p class="degree">M.Tech in Computer Science and Engineering</p>
+                            <p class="details">2020 - 2022 | CGPA: 3/4.0</p>
+                        </li>
+                        <li>
+                            <h3>RGPV Bhopal</h3>
+                            <p class="degree">B.Tech in Computer Science and Engineering</p>
+                            <p class="details">2015 - 2019 | CGPA: 8.04/10.0</p>
+                        </li>
+                        <li>
+                            <h3>Beersheba International School, Pipariya MP</h3>
+                            <p class="degree">Class 12th</p>
+                            <p class="details">2015 | Percentage: 79%</p>
+                            <p class="degree">Class 10th</p>
+                            <p class="details">2013 | Percentage: 83.6%</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- 3. Projects  -->
+            <div id="projects" class="topic">
+                <h2>Projects</h2>
+                <div class="projects-container">
+                    <!-- SportEase -->
+                    <div class="project-card">
+                        <h3>
+                            <a href="https://github.com/Gourav-Bang/Spotscomm_SPE_Final_Project" target="_blank">SportEase</a>
+                            <span class="technologies">| FullStack, DevOps</span>
+                        </h3>
+                        <ul>
+                            <li>Implemented a web-based application to streamline the management of sports equipment and events for colleges and sports clubs.</li>
+                            <li>Configured and automated a robust CI/CD pipeline using Jenkins, and implemented a 3-tier web deployment architecture using Docker containers.</li>
+                            <li>Orchestrated multiple Docker-container applications using Docker Compose, enhancing efficiency and reliability.</li>
+                        </ul>
+                    </div>
+                    <!-- Smart Pi Camera -->
+                    <div class="project-card">
+                        <h3>
+                            Smart Pi Camera
+                            <span class="technologies">| Computer Vision, Raspberry Pi, Python</span>
+                        </h3>
+                        <ul>
+                            <li>Built an intelligent security camera system using Raspberry Pi</li>
+                            <li>Enhances security by proroviding real-time movement alerts via email/SMS,</li>
+                            <li>Used the capabilities of Open Source Computer Vision</li>
+                            <li>Achieved Runner-Up position MP Tech Innovation Challenge at RGPV University, Bhopal.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Banking Management System -->
+                    <div class="project-card">
+                        <h3>
+                            Banking Management System
+                            <span class="technologies">| C, Linux, File Locking, IPC </span>
+                        </h3>
+                        <ul>
+                            <li>Recreated a real-life banking management system using system calls in C.</li>
+                            <li>Implemented socket programming for secure transactions and database updates.</li>
+                            <li>Added file locking to prevent concurrent data access, ensuring consistency in a multi-threaded environment.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 4. Experience  -->
+    <div id="experience" class="topic">
+        <div><strong>Experience</strong></div>
+        <div>
+            <!-- Cisco -->
+            <article class="experience-entry">
+                <h3>Cisco Systems (IIoT Engineering)</h3>
+                <p><strong>Role:</strong> SDE-II | <strong>Technologies:</strong> C, Python, PyATS, PoE, Git, LLM, Grafana, Cerebro</p>
+                <p><strong>Location:</strong> Bangalore | <strong>Dates:</strong> July 2022 – Current</p>
+                <ul>
+                    <li>Led the documentation and implementation of the Power over Ethernet (PoE) for Cisco IE 9300 and IE 3100 Switches.</li>
+                    <li>Developed critical functionalities such as Port Priority, Software Policing, Load Shedding, Fast & Perpetual PoE.</li>
+                    <li>Authored comprehensive documentation detailing key functionality implementations for team reference, managed knowledge transfer processes that made onboarding new engineers easier and reduced training time required by 30%.</li>
+                    <li>Implemented Deployment-Based Sanity automation using Python and PyATS, reducing manual effort by 40% and enabling early detection of bugs, issues, and breakages during development.</li>
+                    <li>Tailored a Webex chatbot integrating Chat GPT’s advanced capabilities using Ollama 3.2 LLM to process hardware/software specs and confidential documents.</li>
+                    <li>Boosted user engagement by over 80% and saved 2 hours per week per employee by simplifying access to critical information.</li>
+                    <li>Engineered an innovative terminal UI with LLM capabilities integrated within Cisco IOS console, enhancing user interaction time by 25% through iterative design improvements and user feedback</li>
+                    <li>Enhanced Code Coverage (Grafana, Cerebro) and made it reach 80%.</li>
+                </ul>
+            </article>
+
+            <!-- Cisco Intern -->
+            <article class="experience-entry">
+                <h3>Cisco Systems (IIoT Engineering)</h3>
+                <p><strong>Role:</strong> Graduate Intern | <strong>Technologies:</strong>C, Python, PyATS, PoE, Git, LLM, Grafana, Cerebro </p>
+                <p><strong>Location:</strong> Bangalore | <strong>Dates:</strong> Jan 2022 – June 2022</p>
+                <ul>
+                    <li>Developed a Python automation script and Webex chatbot for lab device management, reducing power consumption by 55% and improving user experience by 60% through smart device control and exception handling.</li>
+                    <li>Utilized Grafana and Cerebro DevOps tools to perform the Code Coverage for all features in multiple Cisco Platforms and made the code coverage reach 80%.</li>
+                    <li>Enabled Pmanlite (process manager) in Cisco IE9300 and IE3100 which reduced the boot time by ~15 sec.</li>
+                    <li>Implemented Convergence servicability to display the network convergence data in graphical form to enhance debuggability and improve convergence time. </li>
+                </ul>
+            </article>
+    </div>
+
+        <div id="ls" class="topic">
+            <h2>Available Commands</h2>
+            <p class="commands-list">
+                about, education, projects, experience, skills, contact, download, theme, clear.
+            </p>
+        </div>
+<!--    <div id="ls" class="topic">-->
+<!--        <div>-->
+<!--            <div><strong>Available Commands</strong></div>-->
+<!--            <p>about, education, projects, experience, skills,-->
+<!--                contact, download, theme, clear, quote, joke, matrix, easteregg,</p>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+    <!-- 5. Skills  -->
+        <!-- Skills Section -->
+        <div id="skills" class="topic">
+            <div>
+                <h2>Technical Skills</h2>
+<!--                <canvas id="skillsChart" width="400" height="400"></canvas>-->
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <p>C, C++, Python, HTML, CSS, JavaScript</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Frameworks</h3>
+                    <p>Node js, Django, Flask</p>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & Tools</h3>
+                    <p>Docker, Ansible, Jenkins, Git, GitHub, Grafana</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <p> MySQL, MongoDB</p>
+                </div>
+            </div>
+
+            <div>
+                <h2>Coursework</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <ul>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Machine Learning</li>
+                        <li>Functional Programming</li>
+                        <li>Design and analysis of Algorithms</li>
+                        <li>Object Oriented Programming</li>
+                        <li>Operating System</li>
+                        <li>Theory of Computation</li>
+                        <li>Databases</li>
+                        <li>Artificial Intelligence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div id="contact" class="topic">
+                <h2>Contact</h2>
+                <ul class="contact-list">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:Gourav.Bang@iiitb.ac.in" target="_blank">Gourav.Bang@iiitb.ac.in</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/gourav-bang/" target="_blank">LinkedIn Profile</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/Gourav-Bang" target="_blank">GitHub Profile</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+918602069076"> Call Me</a>
+                    </li>
+                </ul>
+            </div>
+
+
+    <!-- 7. Download -->
+    <div id="download" class="topic">
+        <p>Downloading resume..<br>
+            Note: If you are facing any problem, then click <strong><a target=_blank
+                    href="resources/Resume.pdf">HERE</a></strong> to
+            download
+        </p>
+    </div>
+
+    <!-- 8. Error -->
+            <div id="error" class="topic">
+                <p class="error-message"><strong>Error</strong>: Command not found!</p>
+                <pre class="error-details">
+        < Enter <strong><i>help</i></strong> to get a list of all available commands >
+        -----------------------------------------------------------
+            \   ^__^
+             \  (oo)\_______
+                (__)\       )\/\
+                    ||----w |
+                    ||     ||
+    </pre>
+            </div>
+
+
+            <!-- 9. clear -->
+    <div id="clear" class="topic"></div>
+
+    <!-- 10. Help -->
+            <div id="help" class="topic">
+                <h2>Help Commands</h2>
+                <div class="help-container">
+                    <table class="help-table">
+                        <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>about</td>
+                            <td>Read more about me</td>
+                        </tr>
+                        <tr>
+                            <td>education</td>
+                            <td>Read about my qualifications</td>
+                        </tr>
+                        <tr>
+                            <td>projects</td>
+                            <td>Read some of my amazing projects</td>
+                        </tr>
+                        <tr>
+                            <td>experience</td>
+                            <td>See my past experience</td>
+                        </tr>
+                        <tr>
+                            <td>skills</td>
+                            <td>See my skills</td>
+                        </tr>
+                        <tr>
+                            <td>contact</td>
+                            <td>Find ways to contact me</td>
+                        </tr>
+                        <tr>
+                            <td>download</td>
+                            <td>Download my resume</td>
+                        </tr>
+                        <tr>
+                            <td>theme</td>
+                            <td>
+                                Change the theme of the terminal.
+                                <br><em>Available themes:</em> dark, light, monokoi, sublime, light-dark(default)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>clear</td>
+                            <td>Clear the window</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Resume sections end -->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type='text/javascript' src="js/resume.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
