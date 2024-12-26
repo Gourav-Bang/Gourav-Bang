@@ -3,7 +3,7 @@
 ## Introduction
 Terminal Resume is a elementary terminal emulator using HTML, CSS and JavaScript to display resume in terminal like view.
 
-Link - [https://gourav-bang710.github.io](https://gourav-bang710.github.io)
+Link - [https://gourav-bang710.github.io](https://Gourav-Bang.github.io)
 
 ## Features
 - Customized commands to display various resume sections
