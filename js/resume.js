@@ -313,7 +313,7 @@ showTime();
 
 
 function getAge() {
-	var dateString = "04/27/1997"
+	var dateString = "10/07/1997"
 	var now = new Date();
 	var today = new Date(now.getYear(), now.getMonth(), now.getDate());
 
